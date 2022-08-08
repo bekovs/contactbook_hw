@@ -5,8 +5,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { contactContext } from '../../ContactContext';
+import { useNavigate } from 'react-router-dom';
 
 const ContactCard = ({ contact }) => {
+
+  const { deleteContact, editContact } = React.useContext(contactContext);
+  const navigate = useNavigate()
 
   return (
     <Card sx={{ maxWidth: "20%", m: 3 }}>
@@ -25,8 +30,11 @@ const ContactCard = ({ contact }) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Edit</Button>
-        <Button size="small">Delete</Button>
+        <Button size="small" onClick={()=>{
+          editContact(contact.id);
+          navigate('/edit');
+        }}>Edit</Button>
+        <Button size="small" onClick={()=>deleteContact(contact.id)}>Delete</Button>
       </CardActions>
     </Card>
   );

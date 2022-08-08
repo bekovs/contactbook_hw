@@ -1,58 +1,10 @@
 {
   "contacts": [
     {
-      "name": "Sultan",
-      "phone": "4324234",
-      "image": "asdasd",
-      "id": 1
-    },
-    {
-      "name": "213",
-      "phone": "123",
-      "image": "123",
-      "id": 2
-    },
-    {
-      "name": "qeqweqe",
-      "phone": "weqwe",
-      "image": "",
-      "id": 3
-    },
-    {
-      "name": "Duck",
-      "phone": "1321231",
-      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/how-to-keep-ducks-call-ducks-1615457181.jpg?resize=640:*",
-      "id": 4
-    },
-    {
-      "name": "1231",
-      "phone": "qweqwe",
-      "image": "",
-      "id": 5
-    },
-    {
-      "name": "13",
-      "phone": "123",
-      "image": "",
-      "id": 6
-    },
-    {
       "name": "123",
-      "phone": "123123",
-      "image": "",
-      "id": 7
-    },
-    {
-      "name": "123123",
-      "phone": "123123",
-      "image": "",
-      "id": 8
-    },
-    {
-      "name": "123123",
-      "phone": "123123",
-      "image": "",
-      "id": 9
+      "phone": "123",
+      "image": "duck",
+      "id": 1
     }
   ]
 }
